@@ -1,4 +1,4 @@
-import { Box } from "./box.mts";
+import { Box } from "./box.mjs";
 import { Prova } from "./prova.mjs"
 
 ;(()=>{

@@ -6,9 +6,9 @@
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         // "rootDir": "script/src",
-        "outDir": "script/build",
+        "outDir": "app/build",
         
     },
-    "include": ["script/src/**/*.ts", "script/src/**/*.mts"],
+    "include": ["app/**/*.ts", "app/**/*.mts"],
     "exclude": ["node_modules"]
 }
