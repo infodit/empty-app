@@ -2,9 +2,11 @@
   "name": "empty-app",
   "version": "1.0.0",
   "description": "empty-app with js, ts, scss develop",
-  "main": "index.js",
+  "main": "app/build/server.js",
   "type": "module",
   "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node app/build/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,5 +18,9 @@
     "scss"
   ],
   "author": "Infodit",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
 }
