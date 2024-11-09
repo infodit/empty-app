@@ -1,13 +1,13 @@
 {
   "name": "empty-app",
   "version": "1.0.0",
-  "description": "empty-app with js, ts, scss develop",
+  "description": "empty-app with js, ts develop",
   "main": "app/build/server.js",
   "type": "module",
   "scripts": {
     "build": "tsc",
     "start": "npm run build && node app/build/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run build && node test/server.js"
   },
   "keywords": [
     "tutorial",
